@@ -84,15 +84,7 @@ ESP32 GPIO5 ────── IN (Relay)
 5. **Save to device** as `main.py`. It will auto‑run on boot.
 
 > **Finding your chat id**: DM your bot first, or add it to a group. Use `/whoami` from this code to discover IDs. Your code already accepts a list of chat/group IDs.
-# =======================
-# CONFIG
-# =======================
-# NOTE:
-# The following values (WIFI_SSID, WIFI_PASSWORD, BOT_TOKEN, CHAT_IDS)
-# are my personal settings for this project.
-# When you run the code, replace them with your own WiFi credentials,
-# your Telegram bot token, and your chat/group IDs.
-# These values will be different for you!
+
 
 ---
 
