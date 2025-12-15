@@ -6,7 +6,7 @@ import urequests
 # Wi-Fi
 # =========================
 WIFI_SSID = "Robotic WIFI"
-WIFI_PASS = "rbtWIFI@2025i"   # <-- keep yours
+WIFI_PASS = "rbtWIFI@2025i"   
 
 def wifi_connect():
     sta = network.WLAN(network.STA_IF)
@@ -211,3 +211,4 @@ if __name__ == "__main__":
     set_speed(_speed_pct)
     ip = wifi_connect()
     start_server(ip)
+
